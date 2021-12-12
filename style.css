@@ -1,0 +1,193 @@
+body{
+	color: #000D6B;
+	background: url(image/bg.jpg);
+	text-decoration: none;
+	color: mediumpurple;
+}
+
+
+h1{color: #000D6B;
+font-family: ;
+font-size: 32px;
+}
+
+.list-inline{
+	list-style: none;
+	margin-left: 0;
+	padding-left: 0;
+}
+
+img{
+	border-width: Large;
+	border-style: ridge;
+	height:  200px;
+	width: 200px;
+	border-radius: 50%;
+}
+
+a, p, ul, ol, {
+	color: #000D6B;
+	font-size: 16px;
+    font-family:OFL, cursive;
+}
+p{
+	color: black;
+}
+
+.card-whitenom{
+	padding:25px ;
+	margin: auto;
+	border-radius: 8px;
+	box-shadow : 0 15px 35px rgba(50, 50, 93, 0.5);
+	text-align: center;
+	height: 400px;
+}
+
+#Nom{
+	background-image: url(image/bg.jpg);
+}
+
+
+.btn{
+	width: 160px;
+	height: 96px;
+	padding: 10px;
+	background: #060065;
+	color:#FF0000 ;
+	border-radius: 6px;
+	border: solide 1px #060065;
+}
+
+.btn:hover{
+	background: #1C7947;
+	color: whitesmoke;
+	border:  solid 1px black;
+	transition:0.5s;
+}
+
+
+
+.card-whitereseaux{
+	padding:25px ;
+	margin: 12px auto;
+	border-radius: 8px;
+	box-shadow : 0 15px 35px rgba(50, 50, 93, 0.5);
+	text-align: center;
+	height: 150px;
+}
+
+#Reseaux{
+	background-image: url(image/reseaux.jpg);
+}
+
+#bulle-titrereseaux{
+	color: #060065;
+	background: whitesmoke;
+	border-radius: 6px;
+	padding: 5px;
+  }
+
+.btnreseaux{
+	width: 50px;
+	height: 96px;
+	padding: 10px;
+	background: purple;
+	color:black ;
+	border-radius: 6px;
+	border: solide 1px #060065;
+}
+
+.btnreseaux:hover{
+	background:blueviolet;
+	color: black;
+	border:  solid 1px black;
+	transition:0.5s;
+}
+
+
+
+h2{color: #000D6B;
+font-family:Readex Pro, sans-serif;
+font-size: 20px;
+}
+
+.card-whitescb{
+	background: white;
+	padding:25px ;
+	margin: 12px auto;
+	border-radius: 8px;
+	box-shadow : 0 15px 35px rgba(50, 50, 93, 0.5);
+	text-align: center;
+	background: ;
+	height: 150px;
+}
+
+#Bastia{
+	background-image: url(image/foot.jpg);
+	background-size: 100% auto;
+}
+#bulle-titrescb1{
+	color: #060065;
+	background: whitesmoke;
+	border-radius: 6px;
+	padding: 5px;
+  }
+
+#bulle-titrescb2{
+	color: #060065;
+	background: whitesmoke;
+	border-radius: 6px;
+	padding: 3px;
+  }
+
+h3{color: #000D6B;
+font-family: Readex Pro, sans-serif; ;
+font-size: 20px;
+}
+
+.card-whitecita{
+	background: white;
+	padding:25px ;
+	margin: 12px auto;
+	border-radius: 8px;
+	box-shadow : 0 15px 35px rgba(50, 50, 93, 0.5);
+	text-align: center;
+	background: ;
+	height: 150px;
+}
+
+#Marseille{
+	background-image: url(image/marseille.jpg);
+	background-size: 100% auto;
+}
+
+
+h4{color: #000D6B;
+font-family: Readex Pro, sans-serif; ;
+font-size: 20px;
+}
+
+#bulle-titrecita{
+	color: #060065;
+	background: whitesmoke;
+	border-radius: 6px;
+	padding: 5px;
+  }
+
+
+.container{
+	width: 1000px;
+	margin: 0 auto;
+ }
+
+@media(max-width: 900px){
+	.container{
+		width: 700px ;
+	}
+	}
+
+@media(max-width: 600px){
+	.container{
+		width: 400px ;
+	}
+	}
